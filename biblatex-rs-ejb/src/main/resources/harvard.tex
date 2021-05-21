@@ -1,0 +1,23 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{cmap}
+\usepackage{mathtext}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{indentfirst}
+\usepackage{letltxmacro}
+\usepackage[blocks]{authblk}
+\usepackage{hyperref}
+\usepackage{xparse}
+\frenchspacing
+\usepackage[backend=biber,bibencoding=utf8,sorting=nyt,maxcitenames=2,maxbibnames=999,style=authoryear,language=auto,autolang=other]{biblatex}
+
+\addbibresource{bibtex.bib}
+
+\begin{document}
+	\author[i]{Е.\,В.~Лукашева}
+	\title{Библиография}
+	\date{}
+	\maketitle~\nocite{*}
+	\printbibliography
+\end{document}
