@@ -101,7 +101,7 @@ public class XmlToBiblatexTransformer implements MediaTypeTransformerFacade {
 
             String biblatex = getNewFormat(fileName, bibTexBuilder.buildBibtex());
             if (biblatex == null || biblatex.isEmpty() || biblatex.length() < 15) throw new NullPointerException();
-            return getNewFormat("apa", bibTexBuilder.buildBibtex());
+            return getNewFormat(fileName, bibTexBuilder.buildBibtex());
         } catch (ParserConfigurationException | IOException | TransformerException | SAXException | LatexDisabledException | BiberDisabledException e) {
             System.out.println(e.getMessage());
         }
@@ -152,7 +152,7 @@ public class XmlToBiblatexTransformer implements MediaTypeTransformerFacade {
         String biberCommand = "biber " + resultFile1.replaceAll("\\.pdf", "");
         latexMessage = executeCmdCommand(pdfLatexCommand);
         // для корректной работы бибера должен создаться bcf-файл
-        Path bibliographyFile = Paths.get(file.getAbsoluteFile().getAbsolutePath().replaceAll("\\.tex", ".bcf"));
+        Path bibliographyFile = Paths.get(file.getAbsoluteFile().getAbsolutePath().replaceAll("\\.tex", ".bcf").replace("\\biblatex-rs-ejb\\src\\main\\resources", ""));
         if (Files.exists(bibliographyFile)) {
             biberMessage = executeCmdCommand(biberCommand);
         }

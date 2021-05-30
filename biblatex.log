@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.16)  21 MAY 2021 11:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.16)  29 MAY 2021 20:52
 entering extended mode
 **C:/Users/dailin/IdeaProjects/biblatex-rs-tex/biblatex-rs-ejb/src/main/resourc
 es/biblatex.tex
@@ -756,7 +756,7 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count418
 \@quotereset=\count419
-No file biblatex.aux.
+(biblatex.aux)
 \openout1 = `biblatex.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -781,6 +781,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Info: Redefining \th on input line 17.
 Package hyperref Info: Link coloring OFF on input line 17.
+
 (C:\Users\dailin\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -796,6 +797,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 17.
 LaTeX Info: Redefining \pageref on input line 17.
 LaTeX Info: Redefining \nameref on input line 17.
+ (biblatex.out) (biblatex.out)
 \@outlinefile=\write4
 \openout4 = `biblatex.out'.
 
@@ -855,53 +857,36 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 \openout3 = `biblatex.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'biblatex.bbl' not found.
-
-No file biblatex.bbl.
+Package biblatex Info: ... file 'biblatex.bbl' found.
+ (biblatex.bbl)
 Package biblatex Info: Reference section=0 on input line 17.
 Package biblatex Info: Reference segment=0 on input line 17.
+ [1
 
-LaTeX Warning: Empty bibliography on input line 22.
-
-[1
-
-{C:/Users/dailin/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-(biblatex.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-Package rerunfilecheck Warning: File `biblatex.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `biblatex.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                biblatex
-(biblatex)                and rerun LaTeX afterwards.
-
+{C:/Users/dailin/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (biblatex.aux)
+Package rerunfilecheck Info: File `biblatex.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'biblatex.run.xml'.
 \openout1 = `biblatex.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17163 strings out of 479334
- 296190 string characters out of 2856609
- 1226566 words of memory out of 3000000
- 34441 multiletter control sequences out of 15000+200000
- 406144 words of font info for 31 fonts, out of 3000000 for 9000
+ 17463 strings out of 479334
+ 302463 string characters out of 2856609
+ 1227735 words of memory out of 3000000
+ 34725 multiletter control sequences out of 15000+200000
+ 408639 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,4n,75p,821b,2969s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\dailin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1
 200.pk> <C:\Users\dailin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\
-larm1440.pk> <C:\Users\dailin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dp
-i600\larm2074.pk>
-Output written on biblatex.pdf (1 page, 12487 bytes).
+lati1200.pk> <C:\Users\dailin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dp
+i600\labx1728.pk> <C:\Users\dailin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t
+2a/dpi600\larm1440.pk> <C:\Users\dailin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh
+/lh-t2a/dpi600\larm2074.pk>
+Output written on biblatex.pdf (1 page, 32075 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
+ 107 PDF objects out of 1000 (max. 8388607)
+ 4 named destinations out of 1000 (max. 500000)
  5 words of extra memory for PDF output out of 10000 (max. 10000000)
 

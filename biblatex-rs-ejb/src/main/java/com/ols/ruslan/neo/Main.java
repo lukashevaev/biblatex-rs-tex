@@ -32,7 +32,7 @@ public class Main {
         Document document = null;
         if (inputStream != null) document = docBuilder.parse(inputStream);
         byte[] bytes = getBytes(document);
-        System.out.println(transformer.transform(bytes, "apa", "UTF-8"));
+        System.out.println(transformer.transform(bytes, "harvard", "UTF-8"));
         /*System.out.println(Arrays.toString(transformer.transform(bytes, "UTF-8")));*/
 
     }

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.16)  21 MAY 2021 13:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.16)  29 MAY 2021 20:52
 entering extended mode
 **C:/Users/dailin/IdeaProjects/biblatex-rs-tex/biblatex-rs-ejb/src/main/resourc
 es/apa.tex
@@ -836,46 +836,42 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 \openout3 = `apa.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'apa.bbl' not found.
-
-No file apa.bbl.
+Package biblatex Info: ... file 'apa.bbl' found.
+ (apa.bbl)
 Package biblatex Info: Reference section=0 on input line 17.
 Package biblatex Info: Reference segment=0 on input line 17.
 
-LaTeX Warning: Empty bibliography on input line 22.
+Overfull \hbox (19.68622pt too wide) in paragraph at lines 23--23
+[][]\T2A/cmr/m/n/12 Lee, J. F. & Sears. (1969). \T2A/cmr/m/it/12 Thermodynamics
+ : An introductory text for engineering
+ []
 
 [1
 
 {C:/Users/dailin/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (apa.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `apa.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                apa
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'apa.run.xml'.
 \openout1 = `apa.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17020 strings out of 479334
- 290210 string characters out of 2856609
- 1123464 words of memory out of 3000000
- 34295 multiletter control sequences out of 15000+200000
- 406144 words of font info for 31 fonts, out of 3000000 for 9000
+ 17243 strings out of 479334
+ 294656 string characters out of 2856609
+ 1124520 words of memory out of 3000000
+ 34508 multiletter control sequences out of 15000+200000
+ 408639 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,4n,75p,816b,4897s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\dailin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1
+ <C:\Users\dailin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1
 200.pk> <C:\Users\dailin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\
-larm1440.pk> <C:\Users\dailin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dp
-i600\larm2074.pk>
-Output written on apa.pdf (1 page, 12487 bytes).
+larm1200.pk> <C:\Users\dailin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dp
+i600\labx1728.pk> <C:\Users\dailin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t
+2a/dpi600\larm1440.pk> <C:\Users\dailin\AppData\Local\MiKTeX\fonts/pk/ljfour/lh
+/lh-t2a/dpi600\larm2074.pk>
+Output written on apa.pdf (1 page, 34941 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
+ 113 PDF objects out of 1000 (max. 8388607)
+ 4 named destinations out of 1000 (max. 500000)
  5 words of extra memory for PDF output out of 10000 (max. 10000000)
 
